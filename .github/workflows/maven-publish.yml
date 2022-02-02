@@ -30,6 +30,8 @@ jobs:
 
     - name: Build with Maven and Run
       run: mvn -B package --file my-app/pom.xml
+
+    - name: Run Tests
       run: mvn test
 
     # - name: Publish to GitHub Packages Apache Maven
