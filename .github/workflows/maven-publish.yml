@@ -28,8 +28,9 @@ jobs:
         settings-path: ${{ github.workspace }}/my-app # location for the settings.xml file
       ##run: sudo apt-get install openjdk-11-jdk
 
-    - name: Build with Maven
+    - name: Build with Maven and Run
       run: mvn -B package --file my-app/pom.xml
+      run: mvn test
 
     # - name: Publish to GitHub Packages Apache Maven
     #   run: mvn deploy -s $GITHUB_WORKSPACE/settings.xml
