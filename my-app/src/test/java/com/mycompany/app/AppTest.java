@@ -20,11 +20,11 @@ public class AppTest
         assertTrue( true );
     }
     
-	String filename = "LetterGame.csv";
-	@Test
-    public void testPrintMessage() {	
-		 File f = new File(filename);
-		   bool fileExists = f.exists(); 
-		   assertTrue(fileExists);     
-    }
+	// String filename = "LetterGame.csv";
+	// @Test
+    // public void testPrintMessage() {	
+	// 	File f = new File(filename);
+	// 	boolean fileExists = f.exists(); 
+	// 	assertTrue(fileExists);     
+    
 }
